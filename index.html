@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Anas Ibn Belal</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="w-full bg-[#1c1c21] py-6 font-[Manrope]">
+      <div
+        class="flex flex-row justify-between items-center mx-auto max-w-6xl px-4">
+        <!-- Logo -->
+        <a class="text-white font-medium text-2xl mt-2" href="#">ANAS</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button
+          id="menu-toggle"
+          class="ml-auto text-white text-2xl lg:hidden focus:outline-none"
+          aria-label="Toggle navigation">
+          ☰
+          <!-- Hamburger Icon -->
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          id="menu"
+          class="hidden flex-col lg:flex lg:flex-row justify-center lg:justify-between items-start lg:items-center gap-6 bg-[#1c1c21] lg:bg-transparent w-full lg:w-auto px-6 py-4 lg:p-0 transition-all duration-300 ease-in-out">
+          <a
+            href="#"
+            class="text-white text-sm my-2 lg:my-0 mx-2 hover:text-[#e6aa32]">
+            Home
+          </a>
+          <a
+            href="#"
+            class="text-white text-sm my-2 lg:my-0 mx-2 hover:text-[#e6aa32]">
+            About me
+          </a>
+          <a
+            href="#"
+            class="text-white text-sm my-2 lg:my-0 mx-2 hover:text-[#e6aa32]">
+            Projects
+          </a>
+          <a
+            href="#"
+            class="text-white text-sm my-2 lg:my-0 mx-2 hover:text-[#e6aa32]">
+            Testimonials
+          </a>
+          <a
+            href="#"
+            class="text-[#1c1c21] text-sm font-medium bg-[#e6aa32] rounded-full px-8 py-3 my-2 lg:my-0 hover:bg-[#d1952b]">
+            Download CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile Menu (Hidden by default) -->
+      <div
+        id="mobile-menu"
+        class="flex flex-col justify-between items-center mt-4 4 md:hidden text-white px-2"
+        style="display: none">
+        <a href="#" class="block p-3 hover:text-[#e6aa32] rounded-md">Home</a>
+        <a href="#" class="block p-3 hover:text-[#e6aa32] rounded-md"
+          >About me</a
+        >
+        <a href="#" class="block p-3 hover:text-[#e6aa32] rounded-md"
+          >Projects</a
+        >
+        <a href="#" class="block p-3 hover:text-[#e6aa32] rounded-md"
+          >Testimonials</a
+        >
+        <a
+          href="#"
+          class="inline-block px-6 py-2 text-[#1c1c21] font-semibold bg-[#e6aa32] rounded-full hover:bg-[#d1952b]"
+          >Download CV</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar Section -->
+    <!-- Hero Section -->
+    <section class="w-full bg-[#1c1c21] h-[90vh] pt-6 lg:pt-20">
+      <div
+        class="flex flex-col-reverse lg:flex-row justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4 gap-8">
+        <div class="w-full flex flex-col justify-between items-start my-auto">
+          <div class="text-white">
+            <h1
+              id="typewriter"
+              class="text-md text-gray-300 font-[Manrope] whitespace-nowrap">
+              Competitive Programmer || Web Developer
+            </h1>
+            <h1 class="font-[Montagu-Slab] text-4xl lg:text-6xl font-bold">
+              HI! This is <br />
+              <span class="text-[#e6aa32]">Anas Ibn Belal</span>
+            </h1>
+            <p class="text-slate-400 text-wrap py-3 text-sm">
+              As a web Developer with four years of experience, I specialize in
+              creating visually appealing and user-friendly websites. My
+              expertise includes responsive design, UI/UX principles, and
+              collaborating with clients to bring their visions to life.
+            </p>
+          </div>
+          <div
+            class="text-white flex flex-col lg:flex-row justify-between items-center gap-4 text-sm mt-4">
+            <a
+              href="#"
+              class="rounded-full bg-[#e6aa32] py-2 px-6 text-[#1c1c21] font-medium hover:bg-[#1c1c21] hover:text-[#e6aa32] transform duration-500 hover:border border-[#e6aa32]"
+              >Let's Connect</a
+            >
+            <a
+              href="#"
+              class="transform translate-x-0 duration-500 hover:translate-x-3"
+              >View Portfolios
+              <i class="fa-solid fa-arrow-right mx-2 text-base"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Adjusted Image Section -->
+        <div class="w-full">
+          <img
+            src="./src/img/heroimage.png"
+            alt="Anas Ibn Belal"
+            class="object-cover w-full h-full" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <!-- Specialties Section -->
+    <section class="w-full bg-[#1c1c21] h-auto py-14 lg:pt-0 font-[Manrope]">
+      <div
+        class="flex flex-col justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4">
+        <h1 class="text-center text-slate-400 tracking-wide">SPECIALTIES</h1>
+        <h1
+          class="text-justify text-2xl lg:text-5xl text-white tracking-wide font-semibold">
+          MY SPECIALTIES
+        </h1>
+        <p class="text-slate-400 text-center my-2 lg:px-24">
+          As a web Developer with four years of experience, I specialize in
+          creating visually appealing and user-friendly websites. My expertise
+          includes responsive design.
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col bg-[#1C1C21] justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4 py-10 text-white gap-4">
+        <!-- First Row of Cards -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/xpp.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              Competitive Programming
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/dsa.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              Data Structures & Algorithms
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/front.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              Front-End Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/backend.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              Back-End Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Second Row of Cards -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          <!-- Card 5 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/mern.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              MERN Stack Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/uiux.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">UI/UX Design</h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 7 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/api.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              API Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+
+          <!-- Card 8 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:scale-105 hover:shadow-lg active:scale-95">
+            <img
+              src="./src/img/cards/realtime.png"
+              class="w-16 h-16 object-cover"
+              alt="" />
+            <h1 class="text-white text-center text-base py-2">
+              Realtime Webapps Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Specialties Section -->
+    <!-- Recent Works Section -->
+    <div
+      id="modal"
+      class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm px-4 hidden mx-2">
+      <div
+        class="bg-white p-4 sm:p-6 rounded-lg shadow-lg w-full max-w-md sm:max-w-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <button
+          class="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
+          onclick="closeModal()">
+          ✖
+        </button>
+        <div id="modal-content" class="text-center space-y-4">
+          <!-- Modal content will be dynamically populated -->
+        </div>
+      </div>
+    </div>
+    <section
+      id="recent-works"
+      class="w-full bg-[#1c1c21] h-auto py-14 lg:pt-0 font-[Manrope]">
+      <div
+        class="flex flex-col justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4">
+        <h1 class="text-center text-slate-400 tracking-wide">RECENT WORKS</h1>
+        <h1
+          class="text-justify text-2xl lg:text-5xl text-white tracking-wide font-semibold">
+          MY RECENT WORKS
+        </h1>
+        <p class="text-slate-400 text-center my-2 lg:px-24">
+          As a web Developer with four years of experience, I specialize in
+          creating visually appealing and user-friendly websites. My expertise
+          includes responsive design.
+        </p>
+      </div>
+      <div class="container mx-auto px-4 py-6 max-w-6xl">
+        <!-- Gallery -->
+        <div
+          id="gallery"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Gallery items will be dynamically populated -->
+        </div>
+      </div>
+    </section>
+    <!-- Recent Works Section -->
+    <!-- My Another Section -->
+    <section class="w-full bg-[#1c1c21] h-auto py-14 lg:pt-0 font-[Manrope]">
+      <div
+        class="flex flex-col justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4">
+        <h1 class="text-center text-slate-400 tracking-wide">SERVICES</h1>
+        <h1
+          class="text-justify text-2xl lg:text-5xl text-white tracking-wide font-semibold">
+          MY OTHER SERVICES
+        </h1>
+        <p class="text-slate-400 text-center my-2 lg:px-24">
+          As a web Developer with four years of experience, I specialize in
+          creating visually appealing and user-friendly websites. My expertise
+          includes responsive design.
+        </p>
+      </div>
+      <div
+        class="flex flex-col bg-[#1C1C21] justify-between items-center mx-auto max-w-6xl font-[Manrope] px-4 py-10 text-white gap-4">
+        <!-- First Row of Cards -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              Competitive Programming
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              E-Commerce Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              Web App Development
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              API Dev. & Integration
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Second Row of Cards -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          <!-- Card 5 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              Cloud-Based Solutions
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 6 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              Web Perform. Optimization
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 7 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              (SEO) Services
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <!-- Card 8 -->
+          <div
+            class="flex flex-col justify-center items-center p-6 rounded shadow bg-gradient-to-tr from-[#0E0E10] via-[#17171A] to-[#17171A]/30 transition-all transform hover:border hover:border-slate-100">
+            <h1 class="text-white text-center font-semibold text-base py-2">
+              Website Maint. & Support
+            </h1>
+            <p class="text-slate-400 text-center text-sm px-2 py-2">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Another Section -->
+    <!-- FAQ Section -->
+    <section class="w-full bg-[#1c1c21] h-auto py-14 lg:pt-10 font-[Manrope]">
+      <div
+        class="flex flex-col justify-between items-start mx-auto max-w-6xl font-[Manrope] px-4 py-8 border-b-2 border-gray-700">
+        <h1 class="text-left text-slate-400 tracking-wide">FAQ</h1>
+        <h1
+          class="text-left text-2xl lg:text-4xl text-white tracking-wide font-semibold">
+          FREQUENTLY ASKED QUESTIONS
+        </h1>
+      </div>
+      <div
+        class="flex flex-col bg-[#1C1C21] justify-between items-center mx-auto max-w-6xl font-sans px-4 py-10 text-white gap-10">
+        <!-- FAQ 1 -->
+        <div
+          class="w-full border-b border-gray-700 pb-4 cursor-pointer flex justify-between items-center my-2">
+          <h3
+            class="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 uppercase">
+            WHAT AREAS OF WEB DEVELOPMENT DO YOU FOCUS ON?
+            <p class="text-base mt-2 hidden uppercase sm:text-sm lg:text-base">
+              I SPECIALIZE IN WEB DEVELOPMENT, CREATING WEBSITES THAT DELIVER
+              UNIQUE USER EXPERIENCES.
+            </p>
+          </h3>
+          <button
+            class="text-white bg-transparent border flex justify-center items-center border-gray-600 px-6 py-6 toggle-btn rounded-full w-8 h-8 sm:w-6 sm:h-6">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div
+          class="w-full border-b border-gray-700 pb-4 cursor-pointer flex justify-between items-center my-2">
+          <h3
+            class="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 uppercase">
+            HOW CAN I SCHEDULE A WEB DEVELOPMENT CONSULTATION WITH YOU?
+            <p class="text-base mt-2 hidden uppercase sm:text-sm lg:text-base">
+              YOU CAN SCHEDULE A CONSULTATION BY CONTACTING ME THROUGH THE FORM
+              ON MY WEBSITE OR VIA EMAIL.
+            </p>
+          </h3>
+          <button
+            class="text-white bg-transparent border flex justify-center items-center border-gray-600 px-6 py-6 toggle-btn rounded-full w-8 h-8 sm:w-6 sm:h-6">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div
+          class="w-full border-b border-gray-700 pb-4 cursor-pointer flex justify-between items-center my-2">
+          <h3
+            class="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 uppercase">
+            CAN I CHOOSE A SPECIFIC PLATFORM FOR MY WEBSITE?
+            <p class="text-base mt-2 hidden uppercase sm:text-sm lg:text-base">
+              YES, I CAN DEVELOP WEBSITES ON A VARIETY OF PLATFORMS INCLUDING
+              WORDPRESS, SHOPIFY, AND CUSTOM BUILDS.
+            </p>
+          </h3>
+          <button
+            class="text-white bg-transparent border flex justify-center items-center border-gray-600 px-6 py-6 toggle-btn rounded-full w-8 h-8 sm:w-6 sm:h-6">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div
+          class="w-full border-b border-gray-700 pb-4 cursor-pointer flex justify-between items-center my-2">
+          <h3
+            class="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 uppercase">
+            WHAT TOOLS AND TECHNOLOGIES DO YOU USE FOR WEB DEVELOPMENT?
+            <p class="text-base mt-2 hidden uppercase sm:text-sm lg:text-base">
+              I USE MODERN TOOLS AND TECHNOLOGIES LIKE HTML5, CSS3, JAVASCRIPT,
+              REACT, AND NODE.JS.
+            </p>
+          </h3>
+          <button
+            class="text-white bg-transparent border flex justify-center items-center border-gray-600 px-6 py-6 toggle-btn rounded-full w-8 h-8 sm:w-6 sm:h-6">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div
+          class="w-full pb-4 cursor-pointer flex justify-between items-center">
+          <h3
+            class="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 uppercase">
+            WHAT IS THE TYPICAL TIMELINE FOR A WEB DEVELOPMENT PROJECT?
+            <p class="text-base mt-2 hidden uppercase sm:text-sm lg:text-base">
+              THE TIMELINE DEPENDS ON THE PROJECT SCOPE, BUT MOST WEBSITES TAKE
+              4–6 WEEKS TO COMPLETE.
+            </p>
+          </h3>
+          <button
+            class="text-white bg-transparent border flex justify-center items-center border-gray-600 px-6 py-6 toggle-btn rounded-full w-8 h-8 sm:w-6 sm:h-6">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section -->
+    <!-- Footer Section -->
+    <section
+      class="w-full bg-[#1c1c21] h-auto pt-14 lg:pt-10 border border-t-2 border-gray-800 font-[Manrope]">
+      <footer class="max-w-6xl mx-auto px-4 py-8">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-gray-600 lg:grid-cols-5 gap-8 pb-8 border-b-2 border-gray-800">
+          <!-- Section 1 -->
+          <div>
+            <h3 class="font-bold text-lg mb-4 uppercase">SOUTIONS</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-100 uppercase">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 2 -->
+          <div>
+            <h3 class="font-bold text-lg mb-4 uppercase">CUSTOMERS</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Web Design</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">App Development</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">SEO Optimization</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase"
+                  >Digital Marketing</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 3 -->
+          <div>
+            <h3 class="font-bold text-lg mb-4 uppercase">PARTNERS</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Guides</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Ebooks</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 4 -->
+          <div>
+            <h3 class="font-bold text-lg mb-4 uppercase">SUPPORT</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Help Center</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Live Chat</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Submit a Ticket</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Community Forum</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 5 -->
+          <div>
+            <h3 class="font-bold text-lg mb-4 uppercase">FOLLOW US</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Facebook</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">Twitter</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-100 uppercase">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row justify-between items-start lg:items-center text-gray-600">
+          <p class="text-center text-sm mt-4">
+            Terms & Conditions || Privacy Policy
+          </p>
+          <p class="text-center text-sm mt-4">
+            &copy; 2022 Anas Ibn Belal. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer Section -->
+    <script src="./faw.js"></script>
+    <script src="./index.js"></script>
+    <script src="./gallary.js"></script>
+  </body>
+</html>
