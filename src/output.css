@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap");
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -2322,10 +2322,6 @@ video {
   font-family: Manrope;
 }
 
-.font-\[Montagu-Slab\]{
-  font-family: Montagu-Slab;
-}
-
 .font-sans{
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -2888,6 +2884,12 @@ video {
 
 .forced-color-adjust-none{
   forced-color-adjust: none;
+}
+
+#name {
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
 }
 
 @media (min-width: 640px){
